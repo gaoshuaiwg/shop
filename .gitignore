@@ -1,3 +1,25 @@
 # Created by .ignore support plugin (hsz.mobi)
-*.iml
+### Example user template template
+### Example user template
+
+# IntelliJ project files
 .idea
+*.iml
+out
+gen
+.gitignore
+shopp-api/shopp-api-member/src/main/resources/
+shopp-api/shopp-api-member/src/test/
+shopp-api/shopp-api-member/target/generated-sources/
+shopp-api/src/
+shopp-common/src/main/resources/
+shopp-common/src/test/
+shopp-common/target/generated-sources/
+shopp-eurekaserver/src/test/
+shopp-eurekaserver/target/generated-sources/
+shopp-member/src/test/
+shopp-member/target/generated-sources/
+shopp-message/src/test/
+shopp-message/target/generated-sources/
+shopp-pc-web/target/generated-sources/
+src/
