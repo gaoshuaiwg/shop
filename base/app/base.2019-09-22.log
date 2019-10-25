@@ -1,0 +1,427 @@
+2019-09-22 12:44:52.376 [main] INFO  com.shop.MemberServer - The following profiles are active: dev
+2019-09-22 12:44:53.630 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-09-22 12:44:53.631 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-09-22 12:44:53.853 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-22 12:44:57.211 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-22 12:44:57.211 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-22 12:44:57.217 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-22 12:44:57.217 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-22 12:44:57.580 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-22 12:44:57.904 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 12:44:57.904 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 12:44:57.976 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-22 12:44:57.976 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-22 12:44:58.132 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 12:44:58.280 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-09-22 12:44:58.280 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-09-22 12:44:58.280 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-09-22 12:44:58.280 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-09-22 12:44:58.280 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-09-22 12:44:58.280 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-09-22 12:44:58.280 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-09-22 12:44:58.397 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-09-22 12:44:58.398 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-09-22 12:44:58.399 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 12:44:58.401 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1569127498401 with initial instances count: 1
+2019-09-22 12:44:58.415 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1569127498415, current=UP, previous=STARTING]
+2019-09-22 12:44:58.416 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762: registering service...
+2019-09-22 12:44:58.442 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762 - registration status: 204
+2019-09-22 12:44:58.459 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-09-22 12:44:58.466 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-09-22 12:44:58.474 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-09-22 12:44:58.491 [main] INFO  com.shop.MemberServer - Started MemberServer in 9.244 seconds (JVM running for 10.371)
+2019-09-22 12:44:59.238 [RMI TCP Connection(7)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2019-09-22 12:44:59.271 [RMI TCP Connection(7)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-09-22 12:44:59.275 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-09-22 12:44:59.392 [RMI TCP Connection(7)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54425-1569127499276-0:1) is starting
+2019-09-22 12:44:59.395 [RMI TCP Connection(7)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54425-1569127499276-0:1) started
+2019-09-22 12:44:59.395 [RMI TCP Connection(7)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-09-22 12:44:59.418 [RMI TCP Connection(7)-169.254.15.136] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-09-22 12:44:59.444 [RMI TCP Connection(7)-169.254.15.136] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-09-22 12:44:59.445 [RMI TCP Connection(7)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54425-1569127499276-0:1) is shutting down
+2019-09-22 12:44:59.449 [RMI TCP Connection(7)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54425-1569127499276-0:1) uptime 0.191 seconds
+2019-09-22 12:44:59.449 [RMI TCP Connection(7)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54425-1569127499276-0:1) is shutdown
+2019-09-22 12:46:57.974 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-22 12:49:58.283 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 12:54:44.182 [main] INFO  com.shop.MemberServer - The following profiles are active: dev
+2019-09-22 12:54:45.212 [main] WARN  org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.shop [Xlint:invalidAbsoluteTypeName]
+2019-09-22 12:54:45.214 [main] ERROR org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroy method on bean with name 'org.springframework.context.annotation.internalScheduledAnnotationProcessor' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@bff34c6: startup date [Sun Sep 22 12:54:44 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@587e5365
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:555)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.shop.MemberServer.main(MemberServer.java:15)
+2019-09-22 12:54:45.214 [main] ERROR org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroy method on bean with name 'org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@bff34c6: startup date [Sun Sep 22 12:54:44 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@587e5365
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:555)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.shop.MemberServer.main(MemberServer.java:15)
+2019-09-22 12:54:45.214 [main] ERROR org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroy method on bean with name 'org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory' threw an exception
+java.lang.IllegalStateException: ApplicationEventMulticaster not initialized - call 'refresh' before multicasting events via the context: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@bff34c6: startup date [Sun Sep 22 12:54:44 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@587e5365
+	at org.springframework.context.support.AbstractApplicationContext.getApplicationEventMulticaster(AbstractApplicationContext.java:404)
+	at org.springframework.context.support.ApplicationListenerDetector.postProcessBeforeDestruction(ApplicationListenerDetector.java:97)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:253)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:578)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:554)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:961)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:968)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1033)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:555)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.shop.MemberServer.main(MemberServer.java:15)
+2019-09-22 12:54:45.222 [main] ERROR org.springframework.boot.SpringApplication - Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: warning no match for this type name: com.shop [Xlint:invalidAbsoluteTypeName]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:372)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:235)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:702)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:527)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:370)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:314)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1162)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1151)
+	at com.shop.MemberServer.main(MemberServer.java:15)
+Caused by: java.lang.IllegalArgumentException: warning no match for this type name: com.shop [Xlint:invalidAbsoluteTypeName]
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:301)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:217)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.checkReadyToMatch(AspectJExpressionPointcut.java:190)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:169)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:220)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:279)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:311)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:119)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:89)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:70)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:346)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:298)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:423)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	... 24 common frames omitted
+2019-09-22 12:55:29.565 [main] INFO  com.shop.MemberServer - The following profiles are active: dev
+2019-09-22 12:55:30.806 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-09-22 12:55:30.807 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-09-22 12:55:31.030 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-22 12:55:34.149 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-22 12:55:34.149 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-22 12:55:34.152 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-22 12:55:34.152 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-22 12:55:34.428 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-22 12:55:34.716 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 12:55:34.717 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 12:55:34.782 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-22 12:55:34.782 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-22 12:55:34.934 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 12:55:35.081 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-09-22 12:55:35.081 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-09-22 12:55:35.081 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-09-22 12:55:35.081 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-09-22 12:55:35.081 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-09-22 12:55:35.081 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-09-22 12:55:35.081 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-09-22 12:55:35.198 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-09-22 12:55:35.199 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-09-22 12:55:35.201 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 12:55:35.202 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1569128135202 with initial instances count: 1
+2019-09-22 12:55:35.216 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1569128135216, current=UP, previous=STARTING]
+2019-09-22 12:55:35.217 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762: registering service...
+2019-09-22 12:55:35.244 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762 - registration status: 204
+2019-09-22 12:55:35.261 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-09-22 12:55:35.269 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-09-22 12:55:35.278 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-09-22 12:55:35.295 [main] INFO  com.shop.MemberServer - Started MemberServer in 8.82 seconds (JVM running for 9.957)
+2019-09-22 12:55:35.935 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2019-09-22 12:55:35.970 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-09-22 12:55:35.972 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-09-22 12:55:36.114 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54714-1569128135975-0:1) is starting
+2019-09-22 12:55:36.117 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54714-1569128135975-0:1) started
+2019-09-22 12:55:36.117 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-09-22 12:55:36.141 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-09-22 12:55:36.167 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-09-22 12:55:36.168 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54714-1569128135975-0:1) is shutting down
+2019-09-22 12:55:36.172 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54714-1569128135975-0:1) uptime 0.216 seconds
+2019-09-22 12:55:36.172 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54714-1569128135975-0:1) is shutdown
+2019-09-22 12:55:44.131 [http-nio-8762-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-22 12:57:43.316 [main] INFO  com.shop.MemberServer - The following profiles are active: dev
+2019-09-22 12:57:44.564 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-09-22 12:57:44.564 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-09-22 12:57:44.797 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-22 12:57:47.884 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-22 12:57:47.884 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-22 12:57:47.888 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-22 12:57:47.888 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-22 12:57:48.161 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-22 12:57:48.446 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 12:57:48.446 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 12:57:48.512 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-22 12:57:48.512 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-22 12:57:48.662 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 12:57:48.851 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-09-22 12:57:48.851 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-09-22 12:57:48.851 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-09-22 12:57:48.851 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-09-22 12:57:48.851 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-09-22 12:57:48.851 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-09-22 12:57:48.851 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-09-22 12:57:48.970 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-09-22 12:57:48.971 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-09-22 12:57:48.972 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 12:57:48.974 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1569128268974 with initial instances count: 1
+2019-09-22 12:57:48.988 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1569128268988, current=UP, previous=STARTING]
+2019-09-22 12:57:48.989 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762: registering service...
+2019-09-22 12:57:49.025 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762 - registration status: 204
+2019-09-22 12:57:49.043 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-09-22 12:57:49.050 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-09-22 12:57:49.059 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-09-22 12:57:49.076 [main] INFO  com.shop.MemberServer - Started MemberServer in 8.867 seconds (JVM running for 9.972)
+2019-09-22 12:57:49.988 [RMI TCP Connection(5)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2019-09-22 12:57:50.022 [RMI TCP Connection(5)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-09-22 12:57:50.025 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-09-22 12:57:50.144 [RMI TCP Connection(5)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54794-1569128270027-0:1) is starting
+2019-09-22 12:57:50.147 [RMI TCP Connection(5)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54794-1569128270027-0:1) started
+2019-09-22 12:57:50.147 [RMI TCP Connection(5)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-09-22 12:57:50.172 [RMI TCP Connection(5)-169.254.15.136] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-09-22 12:57:50.200 [RMI TCP Connection(5)-169.254.15.136] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-09-22 12:57:50.200 [RMI TCP Connection(5)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54794-1569128270027-0:1) is shutting down
+2019-09-22 12:57:50.205 [RMI TCP Connection(5)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54794-1569128270027-0:1) uptime 0.197 seconds
+2019-09-22 12:57:50.205 [RMI TCP Connection(5)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54794-1569128270027-0:1) is shutdown
+2019-09-22 12:58:14.295 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-22 13:00:33.947 [main] INFO  com.shop.MemberServer - The following profiles are active: dev
+2019-09-22 13:00:35.186 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-09-22 13:00:35.187 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-09-22 13:00:35.408 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-22 13:00:38.500 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-22 13:00:38.500 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-22 13:00:38.504 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-22 13:00:38.504 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-22 13:00:38.778 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-22 13:00:39.077 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 13:00:39.077 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 13:00:39.143 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-22 13:00:39.143 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-22 13:00:39.295 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 13:00:39.443 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-09-22 13:00:39.443 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-09-22 13:00:39.443 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-09-22 13:00:39.443 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-09-22 13:00:39.443 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-09-22 13:00:39.443 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-09-22 13:00:39.443 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-09-22 13:00:39.555 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-09-22 13:00:39.556 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-09-22 13:00:39.558 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 13:00:39.559 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1569128439559 with initial instances count: 1
+2019-09-22 13:00:39.573 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1569128439573, current=UP, previous=STARTING]
+2019-09-22 13:00:39.574 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762: registering service...
+2019-09-22 13:00:39.600 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762 - registration status: 204
+2019-09-22 13:00:39.617 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-09-22 13:00:39.624 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-09-22 13:00:39.633 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-09-22 13:00:39.649 [main] INFO  com.shop.MemberServer - Started MemberServer in 8.787 seconds (JVM running for 9.883)
+2019-09-22 13:00:40.275 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2019-09-22 13:00:40.310 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-09-22 13:00:40.313 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-09-22 13:00:40.433 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54899-1569128440315-0:1) is starting
+2019-09-22 13:00:40.436 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54899-1569128440315-0:1) started
+2019-09-22 13:00:40.436 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-09-22 13:00:40.460 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-09-22 13:00:40.486 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-09-22 13:00:40.487 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54899-1569128440315-0:1) is shutting down
+2019-09-22 13:00:40.491 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54899-1569128440315-0:1) uptime 0.195 seconds
+2019-09-22 13:00:40.491 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-54899-1569128440315-0:1) is shutdown
+2019-09-22 13:00:45.708 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-22 13:03:55.108 [main] INFO  com.shop.MemberServer - The following profiles are active: dev
+2019-09-22 13:03:56.338 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-09-22 13:03:56.339 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-09-22 13:03:56.561 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-22 13:03:59.629 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-22 13:03:59.629 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-22 13:03:59.633 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-22 13:03:59.633 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-22 13:03:59.909 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-22 13:04:00.192 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 13:04:00.192 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 13:04:00.259 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-22 13:04:00.259 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-22 13:04:00.412 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 13:04:00.558 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-09-22 13:04:00.558 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-09-22 13:04:00.558 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-09-22 13:04:00.558 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-09-22 13:04:00.558 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-09-22 13:04:00.558 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-09-22 13:04:00.558 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-09-22 13:04:00.672 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-09-22 13:04:00.673 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-09-22 13:04:00.675 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 13:04:00.676 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1569128640676 with initial instances count: 1
+2019-09-22 13:04:00.690 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1569128640690, current=UP, previous=STARTING]
+2019-09-22 13:04:00.691 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762: registering service...
+2019-09-22 13:04:00.718 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762 - registration status: 204
+2019-09-22 13:04:00.733 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-09-22 13:04:00.740 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-09-22 13:04:00.749 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-09-22 13:04:00.766 [main] INFO  com.shop.MemberServer - Started MemberServer in 8.781 seconds (JVM running for 9.88)
+2019-09-22 13:04:01.508 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2019-09-22 13:04:01.554 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-09-22 13:04:01.559 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-09-22 13:04:01.676 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-55000-1569128641560-0:1) is starting
+2019-09-22 13:04:01.679 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-55000-1569128641560-0:1) started
+2019-09-22 13:04:01.679 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-09-22 13:04:01.703 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-09-22 13:04:01.731 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-09-22 13:04:01.732 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-55000-1569128641560-0:1) is shutting down
+2019-09-22 13:04:01.736 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-55000-1569128641560-0:1) uptime 0.203 seconds
+2019-09-22 13:04:01.737 [RMI TCP Connection(1)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-55000-1569128641560-0:1) is shutdown
+2019-09-22 13:04:25.949 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-09-22 13:04:25.997 [http-nio-8762-exec-1] INFO  com.shop.base.LogAspectServiceApi - ===============请求内容===============
+2019-09-22 13:04:25.998 [http-nio-8762-exec-1] INFO  com.shop.base.LogAspectServiceApi - 请求地址:http://localhost:8762/member/testRedis
+2019-09-22 13:04:25.998 [http-nio-8762-exec-1] INFO  com.shop.base.LogAspectServiceApi - 请求方式:GET
+2019-09-22 13:04:25.999 [http-nio-8762-exec-1] INFO  com.shop.base.LogAspectServiceApi - 请求类方法:ResponseBase com.shop.api.service.impl.TestApiServiceImpl.testRedis(String,String)
+2019-09-22 13:04:25.999 [http-nio-8762-exec-1] INFO  com.shop.base.LogAspectServiceApi - 请求类方法参数:[123, gaoshuai]
+2019-09-22 13:04:25.999 [http-nio-8762-exec-1] INFO  com.shop.base.LogAspectServiceApi - ===============请求内容===============
+2019-09-22 13:04:26.008 [http-nio-8762-exec-1] INFO  com.shop.base.LogAspectServiceApi - --------------返回内容----------------
+2019-09-22 13:04:26.017 [http-nio-8762-exec-1] INFO  com.shop.base.LogAspectServiceApi - Response内容:{"msg":"success","rtnCode":200}
+2019-09-22 13:04:26.017 [http-nio-8762-exec-1] INFO  com.shop.base.LogAspectServiceApi - --------------返回内容----------------
+2019-09-22 13:09:00.561 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 13:14:00.562 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 13:19:00.565 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 13:24:00.567 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 13:29:00.567 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 13:34:00.568 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 13:39:00.570 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 13:44:00.572 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 13:49:00.574 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 13:54:00.574 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 13:59:00.575 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 14:04:00.577 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 14:09:00.579 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 14:14:00.581 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 14:19:00.582 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 14:24:00.583 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 14:29:00.585 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 14:34:00.587 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 14:39:00.588 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 14:44:00.590 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 14:49:00.590 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 14:54:00.592 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 14:59:00.593 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 15:04:00.595 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 15:09:00.596 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 15:14:00.597 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 15:19:00.599 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 15:24:00.600 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 15:29:00.601 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 15:34:00.602 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 15:39:00.603 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 15:44:00.606 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 15:49:00.608 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 15:54:00.609 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 15:59:00.611 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 16:04:00.613 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 16:09:00.614 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 16:14:00.615 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 16:19:00.616 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 16:24:00.619 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 16:29:00.620 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 16:34:00.620 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 16:39:00.622 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 16:44:00.624 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 16:49:00.625 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 16:54:00.626 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 16:59:00.628 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 17:04:00.630 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 17:09:00.630 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 17:14:00.632 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 17:19:00.634 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 17:24:01.786 [main] INFO  com.shop.MemberServer - The following profiles are active: dev
+2019-09-22 17:24:03.018 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-09-22 17:24:03.019 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-09-22 17:24:03.240 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-09-22 17:24:06.307 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-22 17:24:06.307 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-22 17:24:06.310 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-09-22 17:24:06.311 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-09-22 17:24:06.583 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-09-22 17:24:06.864 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-09-22 17:24:06.864 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-09-22 17:24:06.930 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-09-22 17:24:06.930 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-09-22 17:24:07.079 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-22 17:24:07.243 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-09-22 17:24:07.243 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-09-22 17:24:07.243 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-09-22 17:24:07.244 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-09-22 17:24:07.244 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-09-22 17:24:07.244 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-09-22 17:24:07.244 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-09-22 17:24:07.356 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-09-22 17:24:07.357 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-09-22 17:24:07.359 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-09-22 17:24:07.360 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1569144247360 with initial instances count: 1
+2019-09-22 17:24:07.374 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1569144247374, current=UP, previous=STARTING]
+2019-09-22 17:24:07.375 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762: registering service...
+2019-09-22 17:24:07.402 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762 - registration status: 204
+2019-09-22 17:24:07.419 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+2019-09-22 17:24:07.426 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+2019-09-22 17:24:07.435 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-09-22 17:24:07.451 [main] INFO  com.shop.MemberServer - Started MemberServer in 8.784 seconds (JVM running for 9.905)
+2019-09-22 17:24:08.207 [RMI TCP Connection(2)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Loaded the Bouncy Castle security provider.
+2019-09-22 17:24:08.243 [RMI TCP Connection(2)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Using Persistence Adapter: MemoryPersistenceAdapter
+2019-09-22 17:24:08.245 [JMX connector] INFO  org.apache.activemq.broker.jmx.ManagementContext - JMX consoles can connect to service:jmx:rmi:///jndi/rmi://localhost:1099/jmxrmi
+2019-09-22 17:24:08.373 [RMI TCP Connection(2)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-57393-1569144248248-0:1) is starting
+2019-09-22 17:24:08.377 [RMI TCP Connection(2)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-57393-1569144248248-0:1) started
+2019-09-22 17:24:08.377 [RMI TCP Connection(2)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - For help or more information please see: http://activemq.apache.org
+2019-09-22 17:24:08.403 [RMI TCP Connection(2)-169.254.15.136] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost started
+2019-09-22 17:24:08.432 [RMI TCP Connection(2)-169.254.15.136] INFO  org.apache.activemq.broker.TransportConnector - Connector vm://localhost stopped
+2019-09-22 17:24:08.432 [RMI TCP Connection(2)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-57393-1569144248248-0:1) is shutting down
+2019-09-22 17:24:08.437 [RMI TCP Connection(2)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-57393-1569144248248-0:1) uptime 0.210 seconds
+2019-09-22 17:24:08.437 [RMI TCP Connection(2)-169.254.15.136] INFO  org.apache.activemq.broker.BrokerService - Apache ActiveMQ 5.14.5 (localhost, ID:GS-57393-1569144248248-0:1) is shutdown

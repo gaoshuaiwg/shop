@@ -1,0 +1,10 @@
+2019-09-26 00:02:26.845 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-26 00:07:26.850 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-09-26 00:07:28.826 [Thread-31] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1569427648826, current=DOWN, previous=UP]
+2019-09-26 00:07:28.827 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762: registering service...
+2019-09-26 00:07:28.827 [Thread-31] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-09-26 00:07:28.828 [Thread-31] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-09-26 00:07:28.832 [Thread-31] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762 - deregister  status: 200
+2019-09-26 00:07:28.832 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:8762 - registration status: 204
+2019-09-26 00:07:28.834 [Thread-31] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-09-26 00:07:28.841 [Thread-31] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
