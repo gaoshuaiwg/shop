@@ -1,10 +1,7 @@
 package com.shop.api.mapper;
 
 import com.shop.entity.UserEntity;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Param;
-import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.*;
 
 /**
  * @author admin
@@ -16,7 +13,7 @@ public interface MemberMapper {
      * @param userId
      * @return user
      */
-    @Select("select  id,username,password,phone,email,created,updated from mb_user where id =#{userId}")
+    @Select("select  id,username,password,phone,email,created,updated,openid from mb_user where id =#{userId}")
     UserEntity findById(@Param("userId") Long userId);
 
     /**
@@ -24,7 +21,7 @@ public interface MemberMapper {
      * @param userEntity
      * @return success
      */
-    @Insert("INSERT  INTO `mb_user`  (username,password,phone,email,created,updated) VALUES (#{username}, #{password},#{phone},#{email},#{created},#{updated});")
+    @Insert("INSERT  INTO `mb_user`  (username,password,phone,email,created,updated,openid) VALUES (#{username}, #{password},#{phone},#{email},#{created},#{updated},#{openid});")
     Integer insertUser(UserEntity userEntity);
 
 
@@ -34,6 +31,22 @@ public interface MemberMapper {
      * @param password
      * @return
      */
-    @Select("select  id,username,password,phone,email,created,updated from mb_user where username=#{username} and password=#{password}")
+    @Select("select  id,username,password,phone,email,created,updated,openid from mb_user where username=#{username} and password=#{password}")
     UserEntity login(@Param("username") String username,@Param("password")String password);
+
+    /**
+     * 通过openid查询用户
+     * @param openid
+     * @return
+     */
+    @Select("select  id,username,password,phone,email,created,updated,openid from mb_user where openid =#{openid}")
+    UserEntity findByOpenId(@Param("openid") String openid);
+
+    /**
+     * 通过openid修改用户
+     * @param openid
+     * @return
+     */
+    @Update("update mb_user set openid=#{openid} where id=#{userid}")
+    Integer updateByOpenIdUser(@Param("openid") String openid,@Param("userid") Integer userid);
 }

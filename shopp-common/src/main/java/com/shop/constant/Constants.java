@@ -22,6 +22,10 @@ public interface Constants {
      */
     Integer HTTP_RES_CODE_500 = 500;
     /**
+     * 未关连qq账号
+     */
+    Integer HTTP_RES_CODE_201 = 201;
+    /**
      * 发送邮件
      */
 

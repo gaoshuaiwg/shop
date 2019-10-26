@@ -13,6 +13,7 @@ import com.shop.utils.TokenUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.activemq.command.ActiveMQQueue;
 import org.apache.commons.lang.StringUtils;
+import org.apache.ibatis.annotations.Param;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -88,6 +89,10 @@ public class MemberServiceImpl extends BaseApiService implements MemberService {
         //2. 数据库查找账号密码是否正确
         String newPassWord = MD5Util.MD5(password);
         UserEntity user = memberMapper.login(username, newPassWord);
+        return  setLogin(user);
+
+    }
+    private ResponseBase setLogin(UserEntity user){
         if (user == null) {
             return setResultError("账号或者密码不正确！");
         }
@@ -128,6 +133,65 @@ public class MemberServiceImpl extends BaseApiService implements MemberService {
         }
         userEntity.setPassword(null);
         return setResultSuccess(userEntity);
+    }
+
+    /**
+     * 通过openid获取用户
+     *
+     * @param openid
+     * @return
+     */
+    @Override
+    public ResponseBase findByOpenIdUser(@RequestParam("openid") String openid) {
+        /**
+         * 1.验证参数
+         * 2.使用openid 查询数据库 user表对应信息
+         * 3.自动登录
+         */
+        if (StringUtils.isEmpty(openid)){
+            return setResultError("openid不能为空！");
+        }
+        UserEntity userEntity = memberMapper.findByOpenId(openid);
+        if (userEntity==null) {
+            return setResultError(Constants.HTTP_RES_CODE_201,"该openid没有关联!");
+        }
+
+        return setLogin(userEntity);
+    }
+
+    /**
+     * qq登录
+     *
+     * @param userEntity
+     * @return
+     */
+    @Override
+    public ResponseBase qqLogin(@RequestBody UserEntity userEntity) {
+        /**
+         * 1.验证参数
+         * 2.先进行登录，如果成功，数据库修改对应的openid
+         */
+        String openid=userEntity.getOpenid();
+        if(StringUtils.isEmpty(openid)){
+            return setResultError("openid不能为空!");
+        }
+        ResponseBase responseBase = login(userEntity);
+        if (!Constants.HTTP_RES_CODE_200.equals(responseBase.getRtnCode())){
+            return  responseBase;
+        }
+        JSONObject jsonObject = (JSONObject) responseBase.getData();
+        String memberToken =jsonObject.getString("memberToken");
+        ResponseBase tokenUser = findByTokenUser(memberToken);
+        if (!Constants.HTTP_RES_CODE_200.equals(tokenUser.getRtnCode())){
+            return tokenUser;
+        }
+        UserEntity user = (UserEntity) tokenUser.getData();
+        Integer userEntityId = user.getId();
+        Integer updateByOpenIdUser = memberMapper.updateByOpenIdUser(openid, userEntityId);
+        if (updateByOpenIdUser<=0){
+            return setResultError("QQ账号关联失败！");
+        }
+        return responseBase;
     }
 
     private String message(String email) {

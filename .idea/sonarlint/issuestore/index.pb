@@ -29,3 +29,5 @@ index.html,f\6\f6013a00b362253c64368d6eebc50ea2131754e2
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+l
+<shopp-common/src/main/java/com/shop/base/BaseApiService.java,5\2\526536011d3e8325f1fa8a73d3b4ff043bb11116

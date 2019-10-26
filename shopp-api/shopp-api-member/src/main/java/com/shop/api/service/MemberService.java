@@ -46,4 +46,20 @@ public interface MemberService {
      */
     @RequestMapping("/findByTokenUser")
     ResponseBase findByTokenUser(@RequestParam("token") String token);
+
+    /**
+     * 通过openid获取用户
+     * @param openid
+     * @return
+     */
+    @RequestMapping("/findByOpenIdUser")
+    ResponseBase findByOpenIdUser(@RequestParam("openid") String openid);
+
+    /**
+     * qq登录
+     * @param userEntity
+     * @return
+     */
+    @RequestMapping("/qqLogin")
+    ResponseBase qqLogin(@RequestBody UserEntity userEntity);
 }

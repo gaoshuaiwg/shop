@@ -23,6 +23,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/shopp-api/shopp-api-member/src/main/java/com/shop/entity/UserEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopp-common/src/main/java/com/shop/base/BaseApiService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/shopp-common/src/main/java/com/shop/constant/Constants.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/shopp-common/src/main/java/com/shop/utils/CookieUtil.java">
           <value>
             <set />

@@ -39,7 +39,7 @@ public class BaseApiService {
         return setResult(Constants.HTTP_RES_CODE_200, Constants.HTTP_RES_CODE_200_VALUE, data);
     }
 
-    /**
+       /**
      *
      * @param msg
      * @return false
@@ -64,4 +64,15 @@ public class BaseApiService {
         }
         return responseBase;
     }
+
+    /**
+     *
+     * @param code
+     * @param msg
+     * @return
+     */
+    public ResponseBase setResultError(Integer code,String msg){
+        return setResult(code,msg, null);
+    }
+
 }
