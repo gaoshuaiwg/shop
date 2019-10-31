@@ -1,3 +1,3 @@
 
-ksquid:UselessImportCheck"@Remove this unused import 'org.apache.ibatis.annotations.Param'.(á¬Ó²8ÌÎ¤Äà-
 psquid:S00116 "XRename this field "MESSAGESQUEUE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„‘àÃ
+ksquid:UselessImportCheck"@Remove this unused import 'org.apache.ibatis.annotations.Param'.(á¬Ó²8ÌÎ¤Äà-
